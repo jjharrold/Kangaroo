@@ -22,3 +22,21 @@ A single line of four space-separated integers denoting the respective values of
 Print YES if they can land on the same location at the same time; otherwise, print NO.
 
 Note: The two kangaroos must land at the same location after making the same number of jumps.
+
+## Sample Input 0
+
+0 3 4 2
+
+## Sample Output 0
+
+YES
+
+## Explanation 0
+
+The two kangaroos jump through the following sequence of locations:
+
+0 -> 3 -> 6 -> 9 -> 12
+
+4 -> 6 -> 8 -> 10 -> 12
+
+Thus, the kangaroos meet after 4 jumps and we print YES.
